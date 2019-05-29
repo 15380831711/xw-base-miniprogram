@@ -1,0 +1,45 @@
+{
+    "pages": [
+        "pages/home/home",
+        "pages/user/user",
+        "pages/login/login",
+        "pages/web-view/web-view"
+    ],
+    "tabBar": {
+        "color": "#666",
+        "selectedColor": "#4cd1a4",
+        "list": [
+            {
+                "pagePath": "pages/home/home",
+                "text": "首页",
+                "iconPath": "assets/imgs/tabs/home_a.png",
+                "selectedIconPath": "assets/imgs/tabs/home_aon.png"
+            },
+            {
+                "pagePath": "pages/user/user",
+                "text": "我的",
+                "iconPath": "assets/imgs/tabs/home_d.png",
+                "selectedIconPath": "assets/imgs/tabs/home_don.png"
+            }
+        ]
+    },
+    "window": {
+        "onReachBottomDistance": 50,
+        "enablePullDownRefresh": false,
+        "backgroundColor": "#4cd1a4",
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#4cd1a4",
+        "navigationBarTitleText": "xw-base-miniprogram",
+        "navigationBarTextStyle": "white"
+    },
+    "networkTimeout": {
+        "request": 15000
+    },
+    "permission": {
+        "scope.userLocation": {
+            "desc": "您的位置将用于小程序定位城市信息"
+        }
+    },
+    "debug": false,
+    "sitemapLocation": "sitemap.json"
+}

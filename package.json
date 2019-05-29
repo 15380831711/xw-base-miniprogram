@@ -1,0 +1,12 @@
+{
+  "name": "xia-miniprogram",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "./node_modules/typescript/bin/tsc",
+    "tsc": "node ./node_modules/typescript/lib/tsc.js"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {}
+}

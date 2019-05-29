@@ -1,0 +1,6 @@
+<view class="container">
+    <view class="page-body">
+        <button bindtap="toPage" data-page="../login/login">跳转登录</button>
+        <button bindtap="showAlert">显示弹框</button>
+    </view>
+</view>
