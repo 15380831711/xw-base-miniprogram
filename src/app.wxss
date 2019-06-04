@@ -1,9 +1,6 @@
 /**引入外部样式库**/
 
 @import "./assets/css/weui.wxss";
-@import "./assets/css/currency.wxss";
-
-/**app.wxss**/
 
 .container {
     background-color: #f7f7f7;
