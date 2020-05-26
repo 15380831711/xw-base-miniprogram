@@ -4,7 +4,7 @@
 export class WxShareData {
     public title: string = '';
     public path: string = '';
-    public imgUrl: string = '';
+    public imageUrl: string = '';
 }
 
 /**

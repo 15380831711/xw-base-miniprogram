@@ -88,4 +88,6 @@ export class AlertServiceProvider {
         wx.hideLoading();
     }
 
-}
+} 
+
+export default new AlertServiceProvider();

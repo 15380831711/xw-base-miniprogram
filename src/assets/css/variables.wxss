@@ -1,0 +1,5 @@
+/** XA-XV CSS Variables **/
+
+page {
+    --xv-color-danger: red;
+}

@@ -1,20 +1,19 @@
-//house-lease
 //获取应用实例
 // import { IMyApp } from "../../app";
 
-import { AppServiceProvider } from "../../providers/app-service/app-service";
-import { AlertServiceProvider } from "../../providers/alert-service/alert-service";
-import { WxServiceProvider } from "../../providers/wx-service/wx-service";
+import appService from "../../providers/app-service/app-service";
+import alertService from "../../providers/alert-service/alert-service";
+import wxService from "../../providers/wx-service/wx-service";
 import { WxBindRes } from "../../providers/constants";
 
 
 // const app = getApp<IMyApp>();
 
-const appService = new AppServiceProvider();
-const alertService = new AlertServiceProvider();
-const wxService = new WxServiceProvider();
-
 Page({
+    appService: appService,
+    alertService: alertService,
+    wxService: wxService,
+
     data: {
 
     },

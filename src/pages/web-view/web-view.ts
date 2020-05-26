@@ -1,5 +1,5 @@
 Page({
     data: {
-        url: 'http://www.xiaheng.net/'
+        url: 'http://www.baidu.com/'
     }
 });

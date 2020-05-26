@@ -88,3 +88,5 @@ export class WxServiceProvider {
     }
 
 }
+
+export default new WxServiceProvider();

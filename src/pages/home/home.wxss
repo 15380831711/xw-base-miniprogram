@@ -1,1 +1,5 @@
 /* src/pages/home.wxss */
+
+.danger{
+  color: var(--xv-color-danger);
+}
